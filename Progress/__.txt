@@ -1,0 +1,11 @@
+Fitur yang akan di lanjutkan
+1. Membuat Manage Comment dan hapus Manage Roles✅
+2. Membuat Delete Comment✅
+3. Melanjutkan CRUD Manage Users + menambahkan foto pada table Users❌
+4. Membuat Fitur Leaderboard✅
+5. Fitur Searching
+
+
+UI yang akan di prioritaskan
+1. Tampilan Home 
+2. Tampilan Own Project
