@@ -27,7 +27,7 @@
         <div class="grid gap-8 mb-6 lg:mb-16 lg:grid-cols-3 md:grid-cols-2 mt-3">
             @forelse ($projects as $project)
             <div class="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-            <div class="absolute top-3 right-3 bg-white/30 backdrop-invert backdrop-opacity-1 rounded-lg py-1 px-1">{{ $project['created_at']->diffForHumans() }}</div>
+            <div class="absolute top-3 right-3 bg-gray-800 backdrop-invert text-sm backdrop-opacity-[.10] rounded-lg py-1 px-3">{{ $project['created_at']->diffForHumans() }}</div>
                     <a href="/projects/{{ $project['slug'] }}">
                         @if ($project->firstImage)
                             <img class="rounded-lg" src="{{ asset('storage/' . $project->firstImage->image_path) }}"
